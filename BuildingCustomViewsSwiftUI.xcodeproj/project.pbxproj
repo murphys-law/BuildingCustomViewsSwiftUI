@@ -15,6 +15,8 @@
 		3D6148E722AC2BC000A4780C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6148E522AC2BC000A4780C /* LaunchScreen.storyboard */; };
 		3D6148F222AC2BC000A4780C /* BuildingCustomViewsSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6148F122AC2BC000A4780C /* BuildingCustomViewsSwiftUITests.swift */; };
 		3D6148FD22AC2BC000A4780C /* BuildingCustomViewsSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6148FC22AC2BC000A4780C /* BuildingCustomViewsSwiftUIUITests.swift */; };
+		3D61490B22AC44EA00A4780C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61490A22AC44EA00A4780C /* Model.swift */; };
+		3D61490D22AC49D200A4780C /* WedgeGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61490C22AC49D200A4780C /* WedgeGeometry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D6148F822AC2BC000A4780C /* BuildingCustomViewsSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildingCustomViewsSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6148FC22AC2BC000A4780C /* BuildingCustomViewsSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingCustomViewsSwiftUIUITests.swift; sourceTree = "<group>"; };
 		3D6148FE22AC2BC000A4780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D61490A22AC44EA00A4780C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3D61490C22AC49D200A4780C /* WedgeGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WedgeGeometry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3D6148E522AC2BC000A4780C /* LaunchScreen.storyboard */,
 				3D6148E822AC2BC000A4780C /* Info.plist */,
 				3D6148E222AC2BC000A4780C /* Preview Content */,
+				3D61490A22AC44EA00A4780C /* Model.swift */,
+				3D61490C22AC49D200A4780C /* WedgeGeometry.swift */,
 			);
 			path = BuildingCustomViewsSwiftUI;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6148DB22AC2BC000A4780C /* AppDelegate.swift in Sources */,
+				3D61490D22AC49D200A4780C /* WedgeGeometry.swift in Sources */,
+				3D61490B22AC44EA00A4780C /* Model.swift in Sources */,
 				3D6148DD22AC2BC000A4780C /* SceneDelegate.swift in Sources */,
 				3D6148DF22AC2BC000A4780C /* ContentView.swift in Sources */,
 			);
